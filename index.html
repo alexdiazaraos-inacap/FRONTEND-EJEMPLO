@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Formulario — Registro</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1>Registro</h1>
+    </header>
+
+    <main>
+        <section aria-labelledby="registro-title">
+            <h2 id="registro-title">Crear una cuenta</h2>
+
+            <form action="#" method="post" autocomplete="on">
+                <fieldset>
+                    <legend>Datos personales</legend>
+
+                    <div>
+                        <label for="nombre">Nombre</label>
+                        <input id="nombre" name="nombre" type="text" required placeholder="Tu nombre" />
+                    </div>
+
+                    <div>
+                        <label for="correo">Correo</label>
+                        <input id="correo" name="correo" type="email" required placeholder="tu@ejemplo.com" />
+                    </div>
+
+                    <div>
+                        <label for="contrasena">Contraseña</label>
+                        <input id="contrasena" name="contrasena" type="password" minlength="8" required autocomplete="new-password" placeholder="Mínimo 8 caracteres" />
+                    </div>
+
+                    <div>
+                        <button id="btn" type="button">Crear cuenta</button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <small>&copy; 2026</small>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
