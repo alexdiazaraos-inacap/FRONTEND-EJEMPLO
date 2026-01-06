@@ -76,6 +76,10 @@ input:focus {
 }
 input:invalid { border-color: var(--danger); }
 
+/* Dirección específica */
+input#direccion { width:100%; max-width:420px; padding:0.5rem; }
+
+
 /* Submit button */
 button[type="submit"], button { 
   appearance: none;
